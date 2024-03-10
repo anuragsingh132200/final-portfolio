@@ -32,3 +32,15 @@ function openlinktree() {
   // Opening this https://anurag-singh.vercel.app/ in new tab
   window.open('https://anurag-singh.vercel.app/', '_blank');
 }
+const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
