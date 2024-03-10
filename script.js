@@ -28,3 +28,7 @@ $(function () {
     $(this).find("span").css({ top: dY, left: dX });
   });
 });
+function openlinktree() {
+  // Opening this https://anurag-singh.vercel.app/ in new tab
+  window.open('https://anurag-singh.vercel.app/', '_blank');
+}
