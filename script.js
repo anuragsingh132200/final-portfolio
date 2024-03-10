@@ -38,6 +38,16 @@ lenis.on('scroll', (e) => {
   console.log(e)
 })
 
+Shery.makeMagnet(".linktree" /* Element to target.*/, {
+  //Parameters are optional.
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
+Shery.makeMagnet(".logo" /* Element to target.*/, {
+  //Parameters are optional.
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
 function raf(time) {
   lenis.raf(time)
   requestAnimationFrame(raf)
