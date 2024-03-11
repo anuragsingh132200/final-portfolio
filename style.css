@@ -283,7 +283,14 @@ button:focus span {
   }
   .projects-container video{
     width:60vw;
-    padding:5vw
+    margin:0 14vw
   }
   
+}
+.projectsheadvideo {
+  width: 15vw;
+  height: 10vw;
+  object-fit: cover;
+  border-radius:30px;
+  margin: 1vw 1vw 0 0;
 }
